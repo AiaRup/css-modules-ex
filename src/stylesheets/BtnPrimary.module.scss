@@ -1,0 +1,7 @@
+@import './BtnBase.module.scss';
+
+.btn__primary {
+  @extend .btn;
+  color: red;
+  background: pink;
+}
